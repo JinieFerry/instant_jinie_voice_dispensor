@@ -90,7 +90,7 @@ https://chatgpt.com/share/b4f8d632-bb17-4b47-a7b0-19d732c2d15b
 Python Gui with Figma → Tkinter
 https://blog.naver.com/yug311861/222915865128
 
-#tkdesigner install error history
+#tkdesigner install error history (fixed)
 pip install tkdesigner코드를 이용해 다운로드 하려했지만, 
 
 ```python
@@ -166,5 +166,27 @@ pip install pillow
 결과:
   Successfully uninstalled pillow-10.3.0
 
+##6-3
+위의 과정 다시 시도했을 때 다시 에러발생
+에러:
+```powershell
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for pillow
+Failed to build pillow
+ERROR: Could not build wheels for pillow, which is required to install pyproject.toml-based projects
+```
+-> 상위버전 지정해서 설치
+
+```powershell
+pip install pillow==10.3.0
+```
+
+결과:
+PS C:\Users\MSI> pip install pillow==10.3.0
+Collecting pillow==10.3.0
+  Using cached pillow-10.3.0-cp311-cp311-win_amd64.whl.metadata (9.4 kB)
+Using cached pillow-10.3.0-cp311-cp311-win_amd64.whl (2.5 MB)
+Installing collected packages: pillow
+Successfully installed pillow-10.3.0
 
 

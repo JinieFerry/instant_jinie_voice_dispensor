@@ -75,11 +75,15 @@ https://zzingonglog.tistory.com/10
 
 그래도 붙여넣기가 안된다면 Shift + Insert
 
-깃 포기 전까지 대화 백업링크
+#깃 포기 전까지 대화 백업링크
 
 https://chatgpt.com/share/b4f8d632-bb17-4b47-a7b0-19d732c2d15b
 
 #Figma-PythonGui
 Python Gui with Figma → Tkinter
-
 https://blog.naver.com/yug311861/222915865128
+
+#Installed list
+
+https://pypi.org/project/tkdesigner/1.0.7/ (1.0.7 Latest version)
+

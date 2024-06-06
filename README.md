@@ -5,7 +5,8 @@ https://www.youtube.com/watch?v=lelVripbt2M
 https://www.youtube.com/watch?v=MFJIOqxK6k8
 
 #KU'S ORIGIN_TextInput
-'''
+
+'''c
 # Import the tkinter module
 from tkinter import * 
 from elevenlabs import play
@@ -55,5 +56,4 @@ set_up_button = Button(window, height=1, width=10, text="Set",
 set_up_button.pack()
 
 window.mainloop()
-
 '''

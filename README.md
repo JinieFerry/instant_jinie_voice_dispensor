@@ -58,3 +58,28 @@ set_up_button.pack()
 
 window.mainloop()
 ```
+
+# Git and Git Hub Download . Install . Set up
+
+https://www.youtube.com/watch?v=lelVripbt2M&t=309s
+
+Visual Studio for Code Download - select the file - ‘terminal’ - New Terminal 
+
+https://wikidocs.net/195273
+
+https://ebbnflow.tistory.com/196
+
+https://zzingonglog.tistory.com/10
+
+터미널에서 복사, 붙여넣기가 안될 때는 Ctrl + Shift + C & V 
+
+그래도 붙여넣기가 안된다면 Shift + Insert
+
+깃 포기 전까지 대화 백업링크
+
+https://chatgpt.com/share/b4f8d632-bb17-4b47-a7b0-19d732c2d15b
+
+#Figma-PythonGui
+Python Gui with Figma → Tkinter
+
+https://blog.naver.com/yug311861/222915865128

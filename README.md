@@ -4,6 +4,13 @@ https://www.youtube.com/watch?v=lelVripbt2M
 #README.md 작성
 https://www.youtube.com/watch?v=MFJIOqxK6k8
 
+# Installed list
+(zlib은 Pillow 설치를 위치한 것이고, Pillow는 Tkdesigner에서 사용하는 이미지 처리 라이브러리)
+
+https://pypi.org/project/tkdesigner/1.0.7/ (1.0.7 Latest version)
+https://www.zlib.net/ ( zlib source code, version 1.3.1, zipfile format (1616K, SHA-256 hash 72af66d44fcc14c22013b46b814d5d2514673dda3d115e64b690c1ad636e7b17):)
+Pillow==8.3.2
+
 KU'S ORIGIN_TextInput
 
 ```python
@@ -130,9 +137,6 @@ Failed to build Pillow
 ERROR: Could not build wheels for Pillow, which is required to install pyproject.toml-based projects
 ```
 
-https://pypi.org/project/tkdesigner/1.0.7/ (1.0.7 Latest version)
-https://www.zlib.net/ ( zlib source code, version 1.3.1, zipfile format (1616K, SHA-256 hash 72af66d44fcc14c22013b46b814d5d2514673dda3d115e64b690c1ad636e7b17):)
-
 -> (GPT)설정한 시스템 변수에 zlib 라이브러리의 경로를 추가한 것은 올바른 접근입니다. 하지만, Pillow이 해당 위치를 올바르게 인식하지 못할 수도 있습니다. Pillow에게 직접 zlib의 위치를 알려주는 방법이 있습니다. 아래와 같은 방법으로 시도해 볼 수 있습니다.
 
 Pillow 설치 시에 zlib의 위치를 명시적으로 지정하는 방법:
@@ -149,3 +153,6 @@ pip install --global-option="build_ext" --global-option="--include-dirs=C:\Users
 ```
 결과:
 Requirement already satisfied: pillow in c:\users\msi\appdata\local\programs\python\python311\lib\site-packages (10.3.0)
+
+
+

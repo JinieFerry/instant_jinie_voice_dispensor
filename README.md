@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=MFJIOqxK6k8
 
 https://pypi.org/project/tkdesigner/1.0.7/ (1.0.7 Latest version)
 https://www.zlib.net/ ( zlib source code, version 1.3.1, zipfile format (1616K, SHA-256 hash 72af66d44fcc14c22013b46b814d5d2514673dda3d115e64b690c1ad636e7b17):)
-Pillow==8.3.2
+Pillow==10.3.0
 
 KU'S ORIGIN_TextInput
 
@@ -146,13 +146,25 @@ pip install --global-option="build_ext" --global-option="--include-dirs=C:\Users
 ```
 위 명령어에서 --include-dirs 옵션은 zlib 헤더 파일이 위치한 경로를 지정하고, --library-dirs 옵션은 zlib 라이브러리 파일이 위치한 경로를 지정합니다.
 
-6. 위의 방시으로 해결 Pillow 설치 완료
-입력한 코드 
+6. 5.의 코드로 zlib 위치 직접 지정해 pillow 낮은 버전 설치 후, 삭제하고 최신버전 설치로 해결 (Pillow 설치 완료)
+입력한 코드
+
+##6-1
 ```window Powershell
    pip install --global-option="build_ext" --global-option="--include-dirs=C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\zlib131" --global-option="--library-dirs=C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\zlib131" pillow
 ```
 결과:
 Requirement already satisfied: pillow in c:\users\msi\appdata\local\programs\python\python311\lib\site-packages (10.3.0)
+
+## 6-2
+```
+pip uninstall pillow
+```
+```
+pip install pillow
+```
+결과:
+  Successfully uninstalled pillow-10.3.0
 
 
 

@@ -190,6 +190,9 @@ Installing collected packages: pillow
 Successfully installed pillow-10.3.0
 
 7. tkdesigner 설치 계속해서 오류 (pillow 10.3.0 설치 후에도 같은 에러 반복)
+-> tkdesigner 직접 설치 (실패)
+https://packaging.python.org/en/latest/tutorials/installing-packages/
+
 에러코드:
 ```
       <string>:46: RuntimeWarning: Pillow 8.4.0 does not support Python 3.11 and does not provide prebuilt Windows binaries. We do not recommend building from source on Windows.
@@ -200,8 +203,6 @@ Successfully installed pillow-10.3.0
 Failed to build Pillow
 ERROR: Could not build wheels for Pillow, which is required to install pyproject.toml-based projects
 ```
--> tkdesigner 직접 설치
-https://packaging.python.org/en/latest/tutorials/installing-packages/
 
 7-1
 ## Ensure you can run Python from the command line
@@ -220,6 +221,20 @@ py -m pip --version
 ```powershell
 py -m venv tutorial_env
 tutorial_env\Scripts\activate
+```
+
+8. Git Clone 이용한 WINDOW POWERSHELL에서의 TKDESIGNER 직접 설치
+https://www.youtube.com/watch?v=oLxFqpUbaAE&t=236s (실패)
+https://blog.naver.com/yug311861/222915865128(성공)
+https://github.com/ParthJadhav/Tkinter-Designer
+```powershell
+git clone https://github.com/ParthJadhav/Tkinter-Designer.git
+```
+```powershell
+ cd Tkinter-Designer
+```
+```powershell
+pip install -r requirements.txt
 ```
 
 

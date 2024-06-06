@@ -189,7 +189,7 @@ Using cached pillow-10.3.0-cp311-cp311-win_amd64.whl (2.5 MB)
 Installing collected packages: pillow
 Successfully installed pillow-10.3.0
 
-# tkdesigner 설치 계속해서 오류 (pillow 10.3.0 설치 후에도 같은 에러 반복)
+7. tkdesigner 설치 계속해서 오류 (pillow 10.3.0 설치 후에도 같은 에러 반복)
 에러코드:
 ```
       <string>:46: RuntimeWarning: Pillow 8.4.0 does not support Python 3.11 and does not provide prebuilt Windows binaries. We do not recommend building from source on Windows.
@@ -200,8 +200,26 @@ Successfully installed pillow-10.3.0
 Failed to build Pillow
 ERROR: Could not build wheels for Pillow, which is required to install pyproject.toml-based projects
 ```
-
 -> tkdesigner 직접 설치
 https://packaging.python.org/en/latest/tutorials/installing-packages/
+
+7-1
+## Ensure you can run Python from the command line
+```powershell
+py --version
+```
+##Ensure you can run pip from the command lin
+```powershell
+py -m pip --version
+```
+##Ensure pip, setuptools, and wheel are up to date
+```powershell
+py -m pip --version
+```
+##Optionally, create a virtual environment
+```powershell
+py -m venv tutorial_env
+tutorial_env\Scripts\activate
+```
 
 

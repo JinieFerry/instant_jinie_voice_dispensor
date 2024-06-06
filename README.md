@@ -4,9 +4,10 @@ https://www.youtube.com/watch?v=lelVripbt2M
 #README.md 작성
 https://www.youtube.com/watch?v=MFJIOqxK6k8
 
-#KU'S ORIGIN_TextInput
+KU'S ORIGIN_TextInput
 
-'''python
+```python
+
 # Import the tkinter module
 from tkinter import * 
 from elevenlabs import play
@@ -56,4 +57,4 @@ set_up_button = Button(window, height=1, width=10, text="Set",
 set_up_button.pack()
 
 window.mainloop()
-'''
+```

@@ -86,4 +86,5 @@ https://blog.naver.com/yug311861/222915865128
 #Installed list
 
 https://pypi.org/project/tkdesigner/1.0.7/ (1.0.7 Latest version)
+https://www.zlib.net/ ( zlib source code, version 1.3.1, zipfile format (1616K, SHA-256 hash 72af66d44fcc14c22013b46b814d5d2514673dda3d115e64b690c1ad636e7b17):)
 

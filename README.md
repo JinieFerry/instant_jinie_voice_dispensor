@@ -83,8 +83,69 @@ https://chatgpt.com/share/b4f8d632-bb17-4b47-a7b0-19d732c2d15b
 Python Gui with Figma → Tkinter
 https://blog.naver.com/yug311861/222915865128
 
-#Installed list
+#tkdesigner install error history
+pip install tkdesigner코드를 이용해 다운로드 하려했지만, 
+
+```python
+Failed to build Pillow
+ERROR: Could not build wheels for Pillow, which is required to install pyproject.toml-based projects
+PS C:\Users\MSI>
+```
+1. 위의 에러가 지속적으로 발생함.
+->(GPT 피드백) Pillow 설치 중에 발생한 문제로 보입니다. Pillow은 Python 이미지 처리 라이브러리이며, 대부분의 경우 pip를 통해 쉽게 설치할 수 있습니다. 그러나 현재 Pillow이 Python 3.11을 지원하지 않는 것으로 보입니다.
+
+2.PILLOW에 맞춰 파이썬 버전을 낮춰서 대설치해도 같은 문제 반복
+-> (GPT 피드백) 이 문제는 Pillow을 설치하기 위해 필요한 zlib의 헤더 또는 라이브러리 파일을 찾을 수 없다는 것을 나타냅니다. 이는 Windows에서 Pillow을 컴파일하는 데 필요한 외부 종속성이 없는 경우 발생할 수 있습니다.
+
+이 문제를 해결하기 위해서는 zlib 라이브러리를 설치하고 그 위치를 Pillow에 알려주어야 합니다. 일반적으로 zlib은 이미 Windows에 설치되어 있지만, Pillow이 해당 위치를 찾을 수 있도록 환경 변수를 설정해야 할 수 있습니다.
+
+3. Zlib 직접 다운로드
+zlib 최신버전을 다운로드해, 인스턴트 지니 보이스를 만들고 있는 폴더, (C:\Users\MSI\Desktop\instant_jinie_voice_finalPt)에 저장, 압축해제함.
+
+4.zlib 라이브러리가 설치된 위치를 Pillow에 알려주기 위한 환경 변수설정
+제어판 → 시스템 및 보안 → 시스템 → 고급 시스템 설정 → 환경 변수
+시스템 변수 중에서 "Path"를 찾아 선택한 후 편집을 클릭합니다.
+zlib 라이브러리가 설치된 디렉토리("C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\zlib131"
+#Installed list")를 추가했음.
+
+5.pip install Pillow==8.3.2 시도 & 같은 에러 다시 발생
+에러코드
+```
+        File "<string>", line 1035, in <module>
+      RequiredDependencyException:
+
+      The headers or library files could not be found for zlib,
+      a required dependency when compiling Pillow from source.
+
+      Please see the install instructions at:
+         https://pillow.readthedocs.io/en/latest/installation.html
+
+
+      <string>:46: RuntimeWarning: Pillow 8.3.2 does not support Python 3.11 and does not provide prebuilt Windows binaries. We do not recommend building from source on Windows.
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for Pillow
+Failed to build Pillow
+ERROR: Could not build wheels for Pillow, which is required to install pyproject.toml-based projects
+```
 
 https://pypi.org/project/tkdesigner/1.0.7/ (1.0.7 Latest version)
 https://www.zlib.net/ ( zlib source code, version 1.3.1, zipfile format (1616K, SHA-256 hash 72af66d44fcc14c22013b46b814d5d2514673dda3d115e64b690c1ad636e7b17):)
 
+-> (GPT)설정한 시스템 변수에 zlib 라이브러리의 경로를 추가한 것은 올바른 접근입니다. 하지만, Pillow이 해당 위치를 올바르게 인식하지 못할 수도 있습니다. Pillow에게 직접 zlib의 위치를 알려주는 방법이 있습니다. 아래와 같은 방법으로 시도해 볼 수 있습니다.
+
+Pillow 설치 시에 zlib의 위치를 명시적으로 지정하는 방법:
+bash
+```
+pip install --global-option="build_ext" --global-option="--include-dirs=C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\zlib131" --global-option="--library-dirs=C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\zlib131" pillow
+```
+위 명령어에서 --include-dirs 옵션은 zlib 헤더 파일이 위치한 경로를 지정하고, --library-dirs 옵션은 zlib 라이브러리 파일이 위치한 경로를 지정합니다.
+
+6. 위의 방시으로 해결 Pillow 설치 완료
+입력한 코드 
+```window Powershell
+   pip install --global-option="build_ext" --global-option="--include-dirs=C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\zlib131" --global-option="--library-dirs=C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\zlib131" pillow
+```
+결과:
+Requirement already satisfied: pillow in c:\users\msi\appdata\local\programs\python\python311\lib\site-packages (10.3.0)

@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=MFJIOqxK6k8
 
 #KU'S ORIGIN_TextInput
 
-'''c
+'''python
 # Import the tkinter module
 from tkinter import * 
 from elevenlabs import play

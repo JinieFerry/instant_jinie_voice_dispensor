@@ -79,9 +79,6 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
    ```windowpowershell
    cd build
    ```
-   ```windowpowershell
-   cd build
-   ```
 6. open all files wint open . (for mac os) or explorer . (for window os) <- . mean all
    ```windowpowershell
    PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> explorer .

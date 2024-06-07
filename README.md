@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
 
 ### Formatting Figma Design 
 
-#### {1} Reference
+### {1} Reference
 
 ##### Naming is Important
 |FIgma Element Name|Tkinter Element|

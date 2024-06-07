@@ -28,6 +28,8 @@ cd ..
 https://www.youtube.com/watch?v=MFJIOqxK6k8
 https://gist.github.com/ihoneymon/652be052a0727ad59601
 
+##Vscode(Visual Studio For Code) Git, GitHub 연동
+https://earth-95.tistory.com/87
 
 # Python Gui 
 

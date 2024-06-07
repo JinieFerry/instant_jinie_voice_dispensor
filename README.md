@@ -9,7 +9,7 @@ https://pypi.org/project/tkdesigner/1.0.7/ (1.0.7 Latest version)
 https://www.zlib.net/ ( zlib source code, version 1.3.1, zipfile format (1616K, SHA-256 hash 72af66d44fcc14c22013b46b814d5d2514673dda3d115e64b690c1ad636e7b17):)
 Pillow==10.3.0
 
-# Notes
+# Process Notes
 ## README.md 작성
 https://www.youtube.com/watch?v=MFJIOqxK6k8
 https://gist.github.com/ihoneymon/652be052a0727ad59601
@@ -25,11 +25,12 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
 
 ### Formatting Figma Design 
 
-#### 1. Reference
+#### {1} Reference
 
 ##### Naming is Important
-| FIgma Element Name |  Tkinter Element  |: 
-| Button -> Button (Same) |
+|FIgma Element Name|Tkinter Element|
+|:--:|:--:|:--:|
+|Button|Button|(Same)|
 | Line -> Line (Same) |
 | Text -> Name it anything |
 | Rectangle -> Rectangle (Same) |
@@ -37,7 +38,48 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
 | TextBox -> Entry |
 | Image -> Canvas.Image() |
 
-## Codes
+### {2} After Make a UI in Figma : Generate Figma to TkDesigner
+1. Figma 접속 -> [Setting]-> [Account] -> [Personal ]access token] -> [Generate a New Token] -> Name your New token -> [(copy this token)] : will be the [Token ID] -> copy the URL of your board that you finished : will be the [FIle URL]
+2. Open your window powershell and open the tkdesigner
+   ```windowpowershell
+    python gui.py
+   ```
+3. Paste the Token ID and File Url and set the Output Path and Generate
+
+### {3} Oopen your buil File
+1. Open the windowpowershell
+2. open python gui.py
+    ```windowpowershell
+   python gui.py
+   ```
+3. cd paste the output path then it will be looks like PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> 
+   ```windowpowershell
+   cd "C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner"
+   ```
+4. check the files inside that path with ls (for mac os) or dir (for window os)
+   ```windowpowershell
+   PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> dir
+   ```
+5. go to build and clear
+   ```windowpowershell
+   cd build
+   ```
+   ```windowpowershell
+   cd build
+   ```
+6. open all files wint open . (for mac os) or explorer . (for window os) <- . mean all
+   ```windowpowershell
+   PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> explorer .
+   ```
+-> then you can see the 'build' folder. In there, your assets will be at assets folder and generated code for python gui as 'gui'file.
+
+7. Open Python Gui
+   ```windowpowershell
+   python gui.py
+   ```
+-> THen you can see what you created on your Figma board
+
+# Codes
 
 ### KU'S ORIGIN_TextInput
 ##### original code by Ku
@@ -94,7 +136,9 @@ set_up_button.pack()
 window.mainloop()
 ```
 
-# Git and Git Hub Download . Install . Set up
+# Error Notes
+
+## Git and Git Hub Download . Install . Set up
 
 https://www.youtube.com/watch?v=lelVripbt2M&t=309s
 

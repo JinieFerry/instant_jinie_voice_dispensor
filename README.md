@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
 #### 1. Reference
 
 ##### Naming is Important
-FIgma Element Name -> Tkinter Element
+FIgma Element Name -> Tkinter Element : 
 Button -> Button (Same)
 Line -> Line (Same)
 Text -> Name it anything 

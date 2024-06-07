@@ -424,4 +424,10 @@ PS C:\Users\MSI\Tkinter-Designer\gui> cd C:\Users\MSI\Tkinter-Designer\gui
 PS C:\Users\MSI\Tkinter-Designer\gui> python gui.py
 ```
 
-
+## Git push oirigin main ERROR
+1. Git LFS Downlosa for big files
+https://git-lfs.com/
+2. 프로젝트의 루트 디렉토리로 이동
+```gitbash
+cd C:\Users\MSI\Desktop\instant_jinie_voice_finalPt
+```

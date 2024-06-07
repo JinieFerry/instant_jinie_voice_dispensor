@@ -91,19 +91,19 @@ https://ebbnflow.tistory.com/196
 
 https://zzingonglog.tistory.com/10
 
-터미널에서 복사, 붙여넣기가 안될 때는 Ctrl + Shift + C & V 
+1 ) 터미널에서 복사, 붙여넣기가 안될 때는 Ctrl + Shift + C & V 
 
-그래도 붙여넣기가 안된다면 Shift + Insert
+2 ) 그래도 붙여넣기가 안된다면 Shift + Insert
 
-### 깃 포기 전까지 대화 백업링크
+## 깃 포기 전까지 대화 백업링크
 
 https://chatgpt.com/share/b4f8d632-bb17-4b47-a7b0-19d732c2d15b
 
-#Figma-PythonGui
+### Figma-PythonGui
 Python Gui with Figma → Tkinter
 https://blog.naver.com/yug311861/222915865128
 
-#tkdesigner install error history (fixed)
+### tkdesigner install error history (fixed)
 pip install tkdesigner코드를 이용해 다운로드 하려했지만, 
 
 ```python
@@ -111,10 +111,10 @@ Failed to build Pillow
 ERROR: Could not build wheels for Pillow, which is required to install pyproject.toml-based projects
 PS C:\Users\MSI>
 ```
-### 1. 위의 에러가 지속적으로 발생함.
+ 1. 위의 에러가 지속적으로 발생함.
 ->(GPT 피드백) Pillow 설치 중에 발생한 문제로 보입니다. Pillow은 Python 이미지 처리 라이브러리이며, 대부분의 경우 pip를 통해 쉽게 설치할 수 있습니다. 그러나 현재 Pillow이 Python 3.11을 지원하지 않는 것으로 보입니다.
 
-### 2.PILLOW에 맞춰 파이썬 버전을 낮춰서 대설치해도 같은 문제 반복
+ 2.PILLOW에 맞춰 파이썬 버전을 낮춰서 대설치해도 같은 문제 반복
 -> (GPT 피드백) 이 문제는 Pillow을 설치하기 위해 필요한 zlib의 헤더 또는 라이브러리 파일을 찾을 수 없다는 것을 나타냅니다. 이는 Windows에서 Pillow을 컴파일하는 데 필요한 외부 종속성이 없는 경우 발생할 수 있습니다.
 
 이 문제를 해결하기 위해서는 zlib 라이브러리를 설치하고 그 위치를 Pillow에 알려주어야 합니다. 일반적으로 zlib은 이미 Windows에 설치되어 있지만, Pillow이 해당 위치를 찾을 수 있도록 환경 변수를 설정해야 할 수 있습니다.
@@ -179,7 +179,7 @@ pip install pillow
 결과:
   Successfully uninstalled pillow-10.3.0
 
-##6-3
+6-3
 위의 과정 다시 시도했을 때 다시 에러발생
 에러:
 ```powershell
@@ -218,19 +218,19 @@ ERROR: Could not build wheels for Pillow, which is required to install pyproject
 ```
 
 7-1
-## Ensure you can run Python from the command line
+Ensure you can run Python from the command line
 ```powershell
 py --version
 ```
-##Ensure you can run pip from the command lin
+Ensure you can run pip from the command lin
 ```powershell
 py -m pip --version
 ```
-##Ensure pip, setuptools, and wheel are up to date
+Ensure pip, setuptools, and wheel are up to date
 ```powershell
 py -m pip --version
 ```
-##Optionally, create a virtual environment
+Optionally, create a virtual environment
 ```powershell
 py -m venv tutorial_env
 tutorial_env\Scripts\activate

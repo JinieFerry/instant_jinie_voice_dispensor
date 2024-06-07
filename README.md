@@ -16,6 +16,21 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 # Python Gui 
 
+## Open the Python Gui after Figma
+TKDESIGNER 실행
+```windowpowershell
+ cd Tkinter-Designer
+```
+```windowpowershell
+ pip install -r requirements.txt
+```
+```windowpowershell
+ cd gui
+```
+```windowpowershell
+ python3 gui.py
+```
+
 ## Using TkDesigner with Figma (python)
 https://velog.io/@alirz-pixel/tkinter-designer-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD
 https://denev6.tistory.com/entry/tkinter-palette
@@ -78,6 +93,28 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
    python gui.py
    ```
 -> THen you can see what you created on your Figma board
+
+#### Example
+```windowpowershell
+PS C:\Users\MSI> cd "C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner"
+PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> dir
+
+
+    디렉터리: C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----      2024-06-08   오전 4:02                build
+
+
+PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> cd build
+PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner\build> explorer .
+PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner\build> python gui.py
+```
+![figma_to_tk_open_example](https://github.com/JinieFerry/instant_jinie_voice_final_ciritic/assets/166553319/68ca7bf7-b1c8-42de-9d74-df1ad90ad4e3)
+
+
 
 # Codes
 
@@ -230,7 +267,7 @@ pip install --global-option="build_ext" --global-option="--include-dirs=C:\Users
 결과:
 Requirement already satisfied: pillow in c:\users\msi\appdata\local\programs\python\python311\lib\site-packages (10.3.0)
 
-## 6-2
+6-2
 ```
 pip uninstall pillow
 ```

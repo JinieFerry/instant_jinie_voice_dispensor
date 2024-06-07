@@ -8,6 +8,10 @@ https://www.youtube.com/watch?v=lelVripbt2M
 https://pypi.org/project/tkdesigner/1.0.7/ (1.0.7 Latest version)
 https://www.zlib.net/ ( zlib source code, version 1.3.1, zipfile format (1616K, SHA-256 hash 72af66d44fcc14c22013b46b814d5d2514673dda3d115e64b690c1ad636e7b17):)
 Pillow==10.3.0
+ElevenLabs 
+```windowpowershell
+pip install elevenlabs
+```
 
 # Code Notes
 1 ) 터미널에서 복사, 붙여넣기가 안될 때는 Ctrl + Shift + C & V 

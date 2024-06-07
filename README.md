@@ -9,6 +9,16 @@ https://pypi.org/project/tkdesigner/1.0.7/ (1.0.7 Latest version)
 https://www.zlib.net/ ( zlib source code, version 1.3.1, zipfile format (1616K, SHA-256 hash 72af66d44fcc14c22013b46b814d5d2514673dda3d115e64b690c1ad636e7b17):)
 Pillow==10.3.0
 
+# Code Notes
+1 ) 터미널에서 복사, 붙여넣기가 안될 때는 Ctrl + Shift + C & V 
+
+2 ) 그래도 붙여넣기가 안된다면 Shift + Insert
+
+3 ) 상위 폴더로 이동 
+```windowpowershell
+cd ..
+```
+
 # Process Notes
 ## README.md 작성
 https://www.youtube.com/watch?v=MFJIOqxK6k8
@@ -188,10 +198,6 @@ https://wikidocs.net/195273
 https://ebbnflow.tistory.com/196
 
 https://zzingonglog.tistory.com/10
-
-1 ) 터미널에서 복사, 붙여넣기가 안될 때는 Ctrl + Shift + C & V 
-
-2 ) 그래도 붙여넣기가 안된다면 Shift + Insert
 
 ##Pillow 8.4.0 Error History
 

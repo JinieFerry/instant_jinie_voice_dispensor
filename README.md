@@ -32,8 +32,16 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 https://earth-95.tistory.com/87
 https://www.youtube.com/watch?v=lelVripbt2M&t=4s
 1. after edit your code on Vscode open New Terminal of yout current file that you wanna upload on your git
-2. 
-3. 
+2. make a connetion with your file and your git hub
+```vscode terminal
+ git remote add origin https://github.com/JinieFerry/instant_jinie_voice_final_ciritic.git
+```
+-> git remote add origin copy paste your github http 
+3. check your connetion (optional)
+```vscode termianl
+git remote -v
+```
+4.
 # Python Gui 
 
 ## Open the Python Gui after Figma

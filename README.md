@@ -13,7 +13,7 @@ Pillow==10.3.0
 ## README.md 작성
 https://www.youtube.com/watch?v=MFJIOqxK6k8
 https://gist.github.com/ihoneymon/652be052a0727ad59601
-https://www.youtube.com/watch?v=oLxFqpUbaAE
+
 
 # Python Gui 
 
@@ -35,6 +35,10 @@ TKDESIGNER 실행
 ## Using TkDesigner with Figma (python)
 https://velog.io/@alirz-pixel/tkinter-designer-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD
 https://denev6.tistory.com/entry/tkinter-palette
+https://www.youtube.com/watch?v=oLxFqpUbaAE
+
+The original figma tp tkinter Designer designer's Youtube channel
+https://www.youtube.com/@jadhavparth
 
 ## Figma to Tkdesinger by ParthJadhav (orgn)
 https://www.youtube.com/watch?v=Qd-jJjduWeQ

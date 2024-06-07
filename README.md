@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
 ### Codes
 
 #### KU'S ORIGIN_TextInput
-#####original code by Ku
+##### original code by Ku
 ```python
 
 # Import the tkinter module

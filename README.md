@@ -53,6 +53,28 @@ git push origin main
 ```
 5. refresh your github page to check the change.
 
+OR
+
+jinies_dispensor.py 파일을 수정합니다.
+수정한 내용을 저장합니다.
+수정한 내용을 커밋합니다.
+커밋한 내용을 원격 저장소로 푸시합니다.
+아래는 해당 과정에 대한 명령어입니다.
+
+1. 수정한 내용을 저장합니다.
+```
+git add jinies_dispensor.py
+```
+
+2. 커밋합니다.
+```
+git commit -m "Modify jinies_dispensor.py to include desired changes"
+```
+3. 커밋한 내용을 원격 저장소로 푸시합니다.
+```
+git push origin main
+```
+
 ##Connected Vscode file upload (Update your file on your GitHub)
 1. Open New Terminal of your vscode file
 2. add all the changes

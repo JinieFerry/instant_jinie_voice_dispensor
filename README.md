@@ -1,12 +1,14 @@
 # Git , Git Bash , Vscode (Visual Studio for Code) 다운 & 연동
 https://www.youtube.com/watch?v=lelVripbt2M
 
-#README.md 작성
+# README.md 작성
 https://www.youtube.com/watch?v=MFJIOqxK6k8
 
-#Using TkDesigner with Figma (python)
+# Using TkDesigner with Figma (python)
 https://velog.io/@alirz-pixel/tkinter-designer-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD
 https://denev6.tistory.com/entry/tkinter-palette
+##Figma to Tkdesinger by ParthJadhav (orgn)
+https://www.youtube.com/watch?v=Qd-jJjduWeQ
 
 # Installed list
 (zlib은 Pillow 설치를 위치한 것이고, Pillow는 Tkdesigner에서 사용하는 이미지 처리 라이브러리)

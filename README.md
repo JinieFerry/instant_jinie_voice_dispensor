@@ -43,15 +43,15 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
 ### {1} Reference
 
 ##### Naming is Important
-|FIgma Element Name|Tkinter Element|
+|FIgma Element Name|Tkinter Element|-|
 |:--:|:--:|:--:|
 |Button|Button|(Same)|
-| Line -> Line (Same) |
-| Text -> Name it anything |
-| Rectangle -> Rectangle (Same) |
-| TextArea -> Text Area (Same) |
-| TextBox -> Entry |
-| Image -> Canvas.Image() |
+|Line|Line|(Same)|
+|Text|Name it anything|-|
+|Rectangle|Rectangle|(Same)|
+|TextArea|Text Area|(Same)|
+|TextBox|Entry|-|
+|Image|Canvas.Image()|-|
 
 ### {2} After Make a UI in Figma : Generate Figma to TkDesigner
 1. Figma 접속 -> [Setting]-> [Account] -> [Personal ]access token] -> [Generate a New Token] -> Name your New token -> [(copy this token)] : will be the [Token ID] -> copy the URL of your board that you finished : will be the [FIle URL]

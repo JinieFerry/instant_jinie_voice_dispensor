@@ -37,13 +37,19 @@ https://www.youtube.com/watch?v=lelVripbt2M&t=4s
  git remote add origin https://github.com/JinieFerry/instant_jinie_voice_final_ciritic.git
 ```
 -> git remote add origin copy paste your github http 
-3. check your connetion (optional)
+3-1. check your connetion (optional)
 ```vscode termianl
 git remote -v
 ```
-4. push your file
+3-2. Commit your file
+ctrl+shift+G : click the source control and click the commit button
+4-1.pull your changes (Optional. DO this when you see error with push your origin to main)
+```vscodeterminal
+git pull origin main
+```
+4-2. push your file
 ```vscode terminal
-git push origin master
+git push origin main
 ```
 5. refresh your github page to check the change.
 

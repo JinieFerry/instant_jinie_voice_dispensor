@@ -28,7 +28,7 @@ TKDESIGNER 실행
  cd gui
 ```
 ```windowpowershell
- python3 gui.py
+ python gui.py
 ```
 
 ## Using TkDesigner with Figma (python)

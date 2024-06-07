@@ -12,6 +12,7 @@ Pillow==10.3.0
 # Notes
 ## README.md 작성
 https://www.youtube.com/watch?v=MFJIOqxK6k8
+https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 # Python Gui 
 
@@ -27,14 +28,14 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
 #### 1. Reference
 
 ##### Naming is Important
-FIgma Element Name -> Tkinter Element : 
-Button -> Button (Same)
-Line -> Line (Same)
-Text -> Name it anything 
-Rectangle -> Rectangle (Same)
-TextArea -> Text Area (Same)
-TextBox -> Entry
-Image -> Canvas.Image()
+| FIgma Element Name |  Tkinter Element  |: 
+| Button -> Button (Same) |
+| Line -> Line (Same) |
+| Text -> Name it anything |
+| Rectangle -> Rectangle (Same) |
+| TextArea -> Text Area (Same) |
+| TextBox -> Entry |
+| Image -> Canvas.Image() |
 
 ## Codes
 

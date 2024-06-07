@@ -4,6 +4,10 @@ https://www.youtube.com/watch?v=lelVripbt2M
 #README.md 작성
 https://www.youtube.com/watch?v=MFJIOqxK6k8
 
+#Using TkDesigner with Figma (python)
+https://velog.io/@alirz-pixel/tkinter-designer-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD
+https://denev6.tistory.com/entry/tkinter-palette
+
 # Installed list
 (zlib은 Pillow 설치를 위치한 것이고, Pillow는 Tkdesigner에서 사용하는 이미지 처리 라이브러리)
 
@@ -225,8 +229,9 @@ tutorial_env\Scripts\activate
 
 8. Git Clone 이용한 WINDOW POWERSHELL에서의 TKDESIGNER 직접 설치
 https://www.youtube.com/watch?v=oLxFqpUbaAE&t=236s (실패)
-https://blog.naver.com/yug311861/222915865128(성공)
+https://blog.naver.com/yug311861/222915865128(실패)
 https://github.com/ParthJadhav/Tkinter-Designer
+TKDESIGNER 설치
 ```powershell
 git clone https://github.com/ParthJadhav/Tkinter-Designer.git
 ```
@@ -235,6 +240,31 @@ git clone https://github.com/ParthJadhav/Tkinter-Designer.git
 ```
 ```powershell
 pip install -r requirements.txt
+```
+
+TKDESIGNER 실행
+```POWERSHELL
+cd gui
+```
+
+```python gui
+python3 gui.py
+```
+->결과: TKDESIGNER 프로그램 안뜸
+```window powershell
+PS C:\Users\MSI\Tkinter-Designer> cd gui
+PS C:\Users\MSI\Tkinter-Designer\gui> python3 gui.py
+Python
+```
+
+9. 드디어 TkinterDesigner실행 성공
+-> 중립적으로 PYTHON 선언함으로써 성공 (python3 gui.py는 실행 실패 -> python gui.py는 실행성)
+
+```windowpowershell
+PS C:\Users\MSI\Tkinter-Designer\gui> cd C:\Users\MSI\Tkinter-Designer\gui
+```
+```windowpowershell
+PS C:\Users\MSI\Tkinter-Designer\gui> python gui.py
 ```
 
 

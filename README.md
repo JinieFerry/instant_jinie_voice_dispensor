@@ -1,15 +1,6 @@
 # Git , Git Bash , Vscode (Visual Studio for Code) 다운 & 연동
 https://www.youtube.com/watch?v=lelVripbt2M
 
-# README.md 작성
-https://www.youtube.com/watch?v=MFJIOqxK6k8
-
-# Using TkDesigner with Figma (python)
-https://velog.io/@alirz-pixel/tkinter-designer-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD
-https://denev6.tistory.com/entry/tkinter-palette
-##Figma to Tkdesinger by ParthJadhav (orgn)
-https://www.youtube.com/watch?v=Qd-jJjduWeQ
-
 # Installed list
 (zlib은 Pillow 설치를 위치한 것이고, Pillow는 Tkdesigner에서 사용하는 이미지 처리 라이브러리)
 
@@ -17,8 +8,21 @@ https://pypi.org/project/tkdesigner/1.0.7/ (1.0.7 Latest version)
 https://www.zlib.net/ ( zlib source code, version 1.3.1, zipfile format (1616K, SHA-256 hash 72af66d44fcc14c22013b46b814d5d2514673dda3d115e64b690c1ad636e7b17):)
 Pillow==10.3.0
 
-# KU'S ORIGIN_TextInput
-##original code by Ku
+### README.md 작성
+https://www.youtube.com/watch?v=MFJIOqxK6k8
+
+# Python Gui 
+
+### Using TkDesigner with Figma (python)
+https://velog.io/@alirz-pixel/tkinter-designer-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD
+https://denev6.tistory.com/entry/tkinter-palette
+##Figma to Tkdesinger by ParthJadhav (orgn)
+https://www.youtube.com/watch?v=Qd-jJjduWeQ
+
+### Codes
+
+#### KU'S ORIGIN_TextInput
+#####original code by Ku
 ```python
 
 # Import the tkinter module
@@ -88,7 +92,7 @@ https://zzingonglog.tistory.com/10
 
 그래도 붙여넣기가 안된다면 Shift + Insert
 
-##깃 포기 전까지 대화 백업링크
+### 깃 포기 전까지 대화 백업링크
 
 https://chatgpt.com/share/b4f8d632-bb17-4b47-a7b0-19d732c2d15b
 

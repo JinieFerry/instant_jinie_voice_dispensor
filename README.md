@@ -22,6 +22,20 @@ https://denev6.tistory.com/entry/tkinter-palette
 ## Figma to Tkdesinger by ParthJadhav (orgn)
 https://www.youtube.com/watch?v=Qd-jJjduWeQ
 
+### Formatting Figma Design 
+
+#### 1. Reference
+
+##### Naming is Important
+FIgma Element Name -> Tkinter Element
+Button -> Button (Same)
+Line -> Line (Same)
+Text -> Name it anything 
+Rectangle -> Rectangle (Same)
+TextArea -> Text Area (Same)
+TextBox -> Entry
+Image -> Canvas.Image()
+
 ## Codes
 
 ### KU'S ORIGIN_TextInput

@@ -13,6 +13,7 @@ Pillow==10.3.0
 ## README.md 작성
 https://www.youtube.com/watch?v=MFJIOqxK6k8
 https://gist.github.com/ihoneymon/652be052a0727ad59601
+https://www.youtube.com/watch?v=oLxFqpUbaAE
 
 # Python Gui 
 

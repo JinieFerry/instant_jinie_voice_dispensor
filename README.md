@@ -30,7 +30,10 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
 
 ##Vscode(Visual Studio For Code) Git, GitHub 연동
 https://earth-95.tistory.com/87
-
+https://www.youtube.com/watch?v=lelVripbt2M&t=4s
+1. after edit your code on Vscode open New Terminal of yout current file that you wanna upload on your git
+2. 
+3. 
 # Python Gui 
 
 ## Open the Python Gui after Figma

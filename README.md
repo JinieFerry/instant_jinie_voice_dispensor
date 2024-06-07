@@ -81,7 +81,7 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
    ```
 6. open all files wint open . (for mac os) or explorer . (for window os) <- . mean all
    ```windowpowershell
-   PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> explorer .
+   explorer .
    ```
 -> then you can see the 'build' folder. In there, your assets will be at assets folder and generated code for python gui as 'gui'file.
 

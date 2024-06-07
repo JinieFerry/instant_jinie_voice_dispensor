@@ -73,7 +73,7 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
    ```
 4. check the files inside that path with ls (for mac os) or dir (for window os)
    ```windowpowershell
-   PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> dir
+   dir
    ```
 5. go to build and clear
    ```windowpowershell

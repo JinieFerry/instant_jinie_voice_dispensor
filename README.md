@@ -269,7 +269,7 @@ Python
 ```
 
 9. 드디어 TkinterDesigner실행 성공
--> 중립적으로 PYTHON 선언함으로써 성공 (python3 gui.py는 실행 실패 -> python gui.py는 실행성)
+-> 중립적으로 PYTHON 선언함으로써 성공 (python3 gui.py는 실행 실패 -> python gui.py는 실행성공)
 
 ```windowpowershell
 PS C:\Users\MSI\Tkinter-Designer\gui> cd C:\Users\MSI\Tkinter-Designer\gui

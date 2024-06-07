@@ -41,7 +41,26 @@ https://www.youtube.com/watch?v=lelVripbt2M&t=4s
 ```vscode termianl
 git remote -v
 ```
-4.
+4. push your file
+```vscode terminal
+git push origin master
+```
+5. refresh your github page to check the change.
+
+##Connected Vscode file upload (Update your file on your GitHub)
+1. Open New Terminal of your vscode file
+2. add all the changes
+```vscodeterminal
+git add .
+```
+3.check your changes
+```vscdoeterminal
+git status
+```
+4.Make history
+```vscodeterminal
+git commit -m "second commit"
+```
 # Python Gui 
 
 ## Open the Python Gui after Figma

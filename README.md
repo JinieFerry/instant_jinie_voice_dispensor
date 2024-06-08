@@ -148,7 +148,7 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
    ```
 3. cd paste the output path then it will be looks like PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> 
    ```windowpowershell
-   cd "C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner"
+   cd C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner
    ```
 4. check the files inside that path with ls (for mac os) or dir (for window os)
    ```windowpowershell

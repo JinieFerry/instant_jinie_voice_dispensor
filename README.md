@@ -1,6 +1,7 @@
 # Settings
 ## Git , Git Bash , Vscode (Visual Studio for Code) 다운 & 연동
 https://www.youtube.com/watch?v=lelVripbt2M
+ffmpeg / ffplay / ffprobe는 실행시킬 파일이 있는 폴더에 같이 있어야 함.
 
 ## Installed list
 (zlib은 Pillow 설치를 위치한 것이고, Pillow는 Tkdesigner에서 사용하는 이미지 처리 라이브러리)

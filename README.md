@@ -142,24 +142,28 @@ https://www.youtube.com/watch?v=Qd-jJjduWeQ
 3. Paste the Token ID and File Url and set the Output Path and Generate
 
 ### {3} Oopen your buil File
-1. Open the windowpowershell
-2. open python gui.py
+1. Open the windowpowershell 
+   ```windowpowershell
+   cd C:\Users\MSI\Desktop
+   ```
+   -> (optional)
+3. open python gui.py
     ```windowpowershell
    python gui.py
    ```
-3. cd paste the output path then it will be looks like PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> 
+4. cd paste the output path then it will be looks like PS C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner> 
    ```windowpowershell
    cd C:\Users\MSI\Desktop\instant_jinie_voice_finalPt\figma_to_tkdesigner
    ```
-4. check the files inside that path with ls (for mac os) or dir (for window os)
+5. check the files inside that path with ls (for mac os) or dir (for window os)
    ```windowpowershell
    dir
    ```
-5. go to build and clear
+6. go to build and clear
    ```windowpowershell
    cd build
    ```
-6. open all files wint open . (for mac os) or explorer . (for window os) <- . mean all
+7. open all files wint open . (for mac os) or explorer . (for window os) <- . mean all
    ```windowpowershell
    explorer .
    ```
